@@ -6,7 +6,9 @@
   <title>Login</title>
   <style>
     body {
-      background: linear-gradient(to right, #2c3e50, #4ca1af);
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
       font-family: Arial, sans-serif;
       display: flex;
       justify-content: center;
@@ -80,7 +82,7 @@
 
       if (validUsers.includes(user) && pass === validPassword) {
         alert("Usuario y clave correctos");
-        window.location.href = "formulario_siguiente.html"; // Cambia esto a tu siguiente formulario
+        window.location.href = "index2.html";
       } else {
         alert("Usuario y clave incorrectos");
       }
